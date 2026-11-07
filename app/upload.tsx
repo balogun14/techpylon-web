@@ -63,7 +63,7 @@ export default function Upload() {
         <input
           ref={fileRef}
           type="file"
-          accept=".csv,.txt"
+          accept=".pdf,.docx,.csv,.txt,.png,.jpg,.jpeg,.tif,.tiff"
           aria-label="Upload file"
         />
         <button onClick={submitFile} disabled={busy}>
